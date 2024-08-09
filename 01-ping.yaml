@@ -1,5 +1,5 @@
-- name: ping the server
+- name: ping the server chandra
   hosts: web
   tasks:
-  - name: pinging the server
+  - name: pinging the server chandra
     ansible.builtin.ping:
