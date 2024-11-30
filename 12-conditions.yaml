@@ -5,6 +5,6 @@
   - name: check user exists or not
     ansible.builtin.command: id expense
 
-  - name: say hello
+  - name: say Hello
     ansible.buitin.debug:
       msg: "Hello"
