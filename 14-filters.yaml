@@ -19,6 +19,6 @@
   vars:
     greeting: "Hello, Good Morning"
   tasks:
-  - name: convert into uppercase
+  - name: convert into Lowercase
     ansible.builtin.debug:
       msg: "{{ greeting | lower }}"
