@@ -27,6 +27,6 @@
   hosts: localhost
   numbers: [1,2,3,3,4,4,5]
   tasks:
-  - name: remove duplicates
+  - name: remove duplicatess
     ansible.builtin.debug:
       msg: "{{ numbers | unique }}"
