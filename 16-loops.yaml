@@ -4,7 +4,7 @@
   tasks:
   - name: install packages
     ansible.buitin.dnf
-      name: "{{ item }}"
+      name: "{{ items }}"
       state: latest
     loop:
     - mysql
